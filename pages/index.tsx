@@ -14,8 +14,8 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       hello
-      <main className={styles.main}>{JSON.stringify(appCheck)}</main>
       <FirebaseRecaptcha></FirebaseRecaptcha>
+      <main className={styles.main}>{JSON.stringify(appCheck)}</main>
     </div>
   );
 };

@@ -24,3 +24,8 @@ export let appCheck: AppCheck = initializeAppCheck(firebaseApp, {
   provider: new ReCaptchaV3Provider("6Lc6zbofAAAAAGVX3q3aq-XjytXBfVBWCIdXYz6f"),
   isTokenAutoRefreshEnabled: true,
 });
+
+// export let appCheck: AppCheck = initializeAppCheck(firebaseApp, {
+//   provider: new ReCaptchaV3Provider("6Lc6zbofAAAAAGVX3q3aq-XjytXBfVBWCIdXYz6f"),
+//   isTokenAutoRefreshEnabled: true,
+// });

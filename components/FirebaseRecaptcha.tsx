@@ -55,6 +55,7 @@ export const FirebaseRecaptcha = () => {
 
   return (
     <>
+      where is this component
       <div id="recaptcha-container"></div>
       {/* <Typography variant="h6" gutterBottom sx={{ mb: 2 }}>
         {instructionMessage
